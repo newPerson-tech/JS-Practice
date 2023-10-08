@@ -9,5 +9,9 @@ Store the last item in the array in a variable called lastItem.
 let myString = 'Ryu+Ken+Chun-Li+Cammy+Guile+Sakura+Sagat+Juri';
 
 let arrayFromString = myString.split('+');
+let arrayLength = arrayFromString.length;
+let lastArrayItem = arrayFromString[arrayLength-1];
 
 console.log(arrayFromString);
+console.log(arrayLength);
+console.log(lastArrayItem);
