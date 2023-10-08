@@ -9,6 +9,7 @@ let myArray = [ "Ryu", "Ken", "Chun-Li", "Cammy", "Guile", "Sakura", "Sagat", "J
 
 myArray.shift();
 myArray.push('Sekaina', 'Tati');
+myString = addIndexesToStringElements(myArray).join(' + ');
 
 function addIndexesToStringElements(arr){
     for (let i = 0; i< arr.length; i++){
@@ -18,3 +19,4 @@ function addIndexesToStringElements(arr){
 }
 
 console.log(addIndexesToStringElements(myArray));
+console.log(myString);
