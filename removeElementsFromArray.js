@@ -15,10 +15,10 @@ function fillArray(arr){
 }
 
 function deleteArrayElements(arr){
-    let newArr = [];
-    return newArr = arr.pop(0, 7);
+    arr.shift();
+    arr.pop();
+    return arr;
 }
-
 console.log(deleteArrayElements(arrayShortened));
 
 // alert(`Here we have a small array ${fillArray(smallArray)} containing ${smallArray.length} items`);
