@@ -13,3 +13,5 @@ myHobbiesList[4] = 'hiking';
 myHobbiesList.unshift('skiing');
 
 console.log(myHobbiesList);
+
+

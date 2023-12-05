@@ -11,7 +11,7 @@ function winner(user) {
         console.log(`%cWINNER > ${user}`, `color: red`);
 
         const boardElement = document.getElementById('board');
-        boardElement.classList.add('final');
+        boardElement.classList.add("final");
     }
 }
 
@@ -63,7 +63,7 @@ function init() {
 
                 const filledElements = board.flat().filter(elem => elem !== null);
 
-                if(filledElements.length >=5) {
+                if (filledElements.length >= 5) {
                     checkBoard();
                 }
 

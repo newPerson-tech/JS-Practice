@@ -27,6 +27,9 @@ function addEvenNumbersBack(arr){
     return arr;
 }
 
+
+bkhjgfhgdxfgdcvjbhjnmlkbhgfcfghjk
+
 alert(`Congratulations, you have just filled the array with numbers ${addNumbers(oddNumbersArray)}`);
 alert(`The array consists of ${oddNumbersArray.length} numbers`);
 alert(`We have even numbers array too ${addEvenNumbersBack(evenNumbersHereArray)}`);
